@@ -11,21 +11,21 @@ import { CssBaseline, Container } from "@mui/material";
 
 
 
-const App = ()=>{
-  return(
+const App = () => {
+  return (
     <div>
-      <CssBaseline/>
-      <HHeader/>
+      <CssBaseline />
+      <HHeader />
       <Container>
         <AboutUs />
-        <Services/>
-        <Testimonials/>
-        <Portfolio/>
-        <Contact/>
-        <Footer/>
+        <Services />
+        <Testimonials />
+        <Portfolio />
+        <Contact />
+        <Footer />
       </Container>
 
-      
+
     </div>
   );
 };
